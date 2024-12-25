@@ -58,3 +58,17 @@ const substrac3 = function (num1 , num2) {
 const result3 = substrac3(198, 66);
 console.log(result3)
 // Function Expression Done
+
+// Function Arrow Start
+const multiply = (num1, num2) => console.log(num1 - num2);
+multiply(158 , 56);
+
+const multiply1 = (num1, num2) => console.log(num1 + num2);
+multiply1(158 , 56);
+
+const multiply2 = (num1, num2) => console.log(num1 * num2);
+multiply2(158 , 56);
+
+const multiply3 = (num1, num2) => console.log(num1 / num2);
+multiply3(158 , 56);
+// Function Arrow End
