@@ -18,7 +18,7 @@ function mangoLimeJuice(mangos , limes){
    return juice;
 }
 const juice = mangoLimeJuice(2, 3);
-console.log(juice)
+console.log(juice);
 
 function pieces(cut) {
     const pieces = cut * 4;
@@ -30,5 +30,31 @@ function added(num1 , num2){
     return total;
 }
 const sum = added(506 , 325);
-console.log(sum)
+console.log(sum);
 // Function Declaration Done
+
+// Function Expression Start
+const substrac = function (num1 , num2) {
+    return num1 - num2;
+}
+const result = substrac(198, 66);
+console.log(result)
+
+const substrac1 = function (num1 , num2) {
+    return num1 + num2;
+}
+const result1 = substrac1(198, 66);
+console.log(result1)
+
+const substrac2 = function (num1 , num2) {
+    return num1 * num2;
+}
+const result2 = substrac2(198, 66);
+console.log(result2)
+
+const substrac3 = function (num1 , num2) {
+    return num1 / num2;
+}
+const result3 = substrac3(198, 66);
+console.log(result3)
+// Function Expression Done
